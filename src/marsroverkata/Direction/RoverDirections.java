@@ -11,6 +11,7 @@ package marsroverkata.Direction;
  */
 public class RoverDirections {
     char d;
+    char [] array =  {'N','S','E','W'};
     // Getter methods
     public char getRoverDirection(){
         return d;
@@ -19,6 +20,30 @@ public class RoverDirections {
     // Setter methods
     public void setRoverDirection(char d){
         this.d = d;
+    }
+    
+    // Move Rover Left
+    
+    public boolean moveLeft(){
+    
+        return true;
+    }
+    // Move Rover to the right
+    public boolean moveRight(){
+    
+        return true;
+    }
+    
+    // Move Rover Foreward
+    
+    public boolean moveForeward(){
+    
+        return true;
+    }
+    // Move Rover Bckwards
+    public boolean moveBackward(){
+    
+        return true;
     }
     
 }

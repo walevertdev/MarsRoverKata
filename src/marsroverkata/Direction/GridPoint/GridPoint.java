@@ -25,5 +25,13 @@ public class GridPoint {
     public void setYPoint(int y){
         this.y = y;
     }
+    // function defines the Rover initial position the Rover started from
+    public boolean InitialGridPoint(int x, int y){
+        setXPoint(x);
+        setYPoint(y);
+        
+        return true;// returns false if initial grid point is not set
+    }
+
     
 }

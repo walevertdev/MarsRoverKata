@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 package marsroverkata;
+import marsroverkata.Direction.GridPoint.GridPoint;
+import marsroverkata.Direction.RoverDirections;
 
 /**
  *
@@ -16,6 +18,12 @@ public class MarsRoverKata {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        MarsRoverKata marsRover = new MarsRoverKata();
+        GridPoint roverGridPoint = new GridPoint();
+        // set initial rover grid points
+        roverGridPoint.InitialGridPoint(0, 0);
+        
+        
     }
     
 }
