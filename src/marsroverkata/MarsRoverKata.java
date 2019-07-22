@@ -17,6 +17,8 @@ public class MarsRoverKata implements RoverDirections {
      * @param args the command line arguments
      */
     char d;
+    int initialXPoint;
+    int initialYPoint;
     // Getter methods
     public char getRoverDirection(){
         return d;
@@ -34,6 +36,8 @@ public class MarsRoverKata implements RoverDirections {
         
         for(String arg : args) {
             System.out.println(arg);
+            roverGridPoint.setXPoint(0);
+            roverGridPoint.setXPoint(1);
         }
         
         // set initial rover grid points
