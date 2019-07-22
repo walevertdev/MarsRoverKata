@@ -17,8 +17,6 @@ public class MarsRoverKata implements RoverDirections {
      * @param args the command line arguments
      */
     char d;
-    int initialXPoint;
-    int initialYPoint;
     // Getter methods
     public char getRoverDirection(){
         return d;
