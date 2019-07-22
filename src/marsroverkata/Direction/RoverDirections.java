@@ -9,41 +9,17 @@ package marsroverkata.Direction;
  *
  * @author walevert
  */
-public class RoverDirections {
-    char d;
-    char [] array =  {'N','S','E','W'};
-    // Getter methods
-    public char getRoverDirection(){
-        return d;
-    }
-    
-    // Setter methods
-    public void setRoverDirection(char d){
-        this.d = d;
-    }
-    
+public interface RoverDirections {
+    char [] array =  {'N','S','E','W'}; 
     // Move Rover Left
     
-    public boolean moveLeft(){
-    
-        return true;
-    }
+    public boolean moveLeft();
     // Move Rover to the right
-    public boolean moveRight(){
-    
-        return true;
-    }
+    public boolean moveRight();
     
     // Move Rover Foreward
     
-    public boolean moveForeward(){
-    
-        return true;
-    }
+    public boolean moveForeward();
     // Move Rover Bckwards
-    public boolean moveBackward(){
-    
-        return true;
-    }
-    
+    public boolean moveBackward();
 }

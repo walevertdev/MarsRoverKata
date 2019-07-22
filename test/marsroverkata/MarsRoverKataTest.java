@@ -48,5 +48,88 @@ public class MarsRoverKataTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
+
+    /**
+     * Test of getRoverDirection method, of class MarsRoverKata.
+     */
+    @Test
+    public void testGetRoverDirection() {
+        System.out.println("getRoverDirection");
+        MarsRoverKata instance = new MarsRoverKata();
+        char expResult = ' ';
+        char result = instance.getRoverDirection();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of setRoverDirection method, of class MarsRoverKata.
+     */
+    @Test
+    public void testSetRoverDirection() {
+        System.out.println("setRoverDirection");
+        char d = ' ';
+        MarsRoverKata instance = new MarsRoverKata();
+        instance.setRoverDirection(d);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of moveLeft method, of class MarsRoverKata.
+     */
+    @Test
+    public void testMoveLeft() {
+        System.out.println("moveLeft");
+        MarsRoverKata instance = new MarsRoverKata();
+        boolean expResult = false;
+        boolean result = instance.moveLeft();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of moveRight method, of class MarsRoverKata.
+     */
+    @Test
+    public void testMoveRight() {
+        System.out.println("moveRight");
+        MarsRoverKata instance = new MarsRoverKata();
+        boolean expResult = false;
+        boolean result = instance.moveRight();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of moveForeward method, of class MarsRoverKata.
+     */
+    @Test
+    public void testMoveForeward() {
+        System.out.println("moveForeward");
+        MarsRoverKata instance = new MarsRoverKata();
+        boolean expResult = false;
+        boolean result = instance.moveForeward();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of moveBackward method, of class MarsRoverKata.
+     */
+    @Test
+    public void testMoveBackward() {
+        System.out.println("moveBackward");
+        MarsRoverKata instance = new MarsRoverKata();
+        boolean expResult = false;
+        boolean result = instance.moveBackward();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
     
 }
